@@ -1,4 +1,4 @@
-#EC601 Project 02 - Twitter Sentiment Analyzer
+**EC601 Project 02 - Twitter Sentiment Analyzer**
 
 ##IMAGES AVAILABLE IN PYTHON NOTEBOOKS IN THE TEST FOLDER!
 
