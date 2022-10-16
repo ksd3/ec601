@@ -1,4 +1,4 @@
-﻿\# EC601 Project 02 - Twitter Sentiment Analyzer
+#EC601 Project 02 - Twitter Sentiment Analyzer
 
 ##IMAGES AVAILABLE IN PYTHON NOTEBOOKS IN THE TEST FOLDER!
 
@@ -11,28 +11,17 @@ To get access to the API, you need to make a Twitter Developer Account. You then
 To install the latest version of Tweepy, I ran <code>pip install git+https://github.com/tweepy/tweepy.git</code> to get the latest version of Tweepy. This is required because tutorials online are generally available for Tweepy versions 3.x while the default documentation is for Tweepy version 4.x.
 
 I then created a Jupyter Notebook to test Tweepy. I made a new Twitter account and did the following:
-
-\1. I was able to get my timeline (which consisted entirely of Bloomberg tweets). 
-
-\2. I was able to post tweets (this is where I realized that the initial API key was read-only and needed to be regenerated). I also realized that this prevented me from posting the same tweet twice.
-
-\3. I was able to get the last 20 followers of a public Twitter user. (Tarik 'tarik' Celik). I suspect that this method does not work on private accounts unless they accept your follow request as well. I was also able to get tarik's display name, description, and location.
-
-\4. I was able to follow and unfollow users with the <code>create\_friendship()</code> and <code>destroy\_friendship()</code> functions.
-
-\5. I was able to block and unblock users with the <code>create\_block()</code> and <code>destroy\_block()</code> functions.
-
-\6. I was able to like my own tweets.
-
-\7. When a user was not found, I was able to get a Tweepy error. However I did not get any error code, which may be a feature of the environment I set up.
-
-\8. During my probing, I never had an instance where Twitter was rate limited or down, so I simply ignored these cases. However there are functions to avoid this that change names with the documentation.
-
-\9. I was able to pull tweets from a user. However tyhe Twitter API itself does not allow you to pull private tweets. 
-
-\10. I was able to see trends by specifying a latitude and longitude.
-
-\11. I then used the <code>Cursor()</code> function in Tweepy to actually pull tweets and save them to a pandas dataframe. I could search for tweets featuring a certain keyword and pull the most recent 300, 500, and so on. However this never used my quota of 2 million tweets, which is surprising.
+1. I was able to get my timeline (which consisted entirely of Bloomberg tweets). 
+2. I was able to post tweets (this is where I realized that the initial API key was read-only and needed to be regenerated). I also realized that this prevented me from posting the same tweet twice.
+3. I was able to get the last 20 followers of a public Twitter user. (Tarik 'tarik' Celik). I suspect that this method does not work on private accounts unless they accept your follow request as well. I was also able to get tarik's display name, description, and location.
+4. I was able to follow and unfollow users with the <code>create\_friendship()</code> and <code>destroy\_friendship()</code> functions.
+5. I was able to block and unblock users with the <code>create\_block()</code> and <code>destroy\_block()</code> functions.
+6. I was able to like my own tweets.
+7. When a user was not found, I was able to get a Tweepy error. However I did not get any error code, which may be a feature of the environment I set up.
+8. During my probing, I never had an instance where Twitter was rate limited or down, so I simply ignored these cases. However there are functions to avoid this that change names with the documentation.
+9. I was able to pull tweets from a user. However tyhe Twitter API itself does not allow you to pull private tweets. 
+10. I was able to see trends by specifying a latitude and longitude.
+11. I then used the <code>Cursor()</code> function in Tweepy to actually pull tweets and save them to a pandas dataframe. I could search for tweets featuring a certain keyword and pull the most recent 300, 500, and so on. However this never used my quota of 2 million tweets, which is surprising.
 
 #Part 1 B) The Google NLP API
 
