@@ -1,4 +1,4 @@
-#This repository contains all the material I made for EC601.
+# This repository contains all the material I made for EC601.
 
 Project 1 is Visual Question Answering
 Project 2 is Twitter Sentiment Analyzer
