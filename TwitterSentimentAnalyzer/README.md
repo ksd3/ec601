@@ -1,6 +1,6 @@
 # EC601 Project 02 - Twitter Sentiment Analyzer
 
-## IMAGES AVAILABLE IN PYTHON NOTEBOOKS IN THE TEST FOLDER!
+## IMAGES IN THE JUPYTER NOTEBOOKS!
 
 # Part 1 A) The Twitter API
 
