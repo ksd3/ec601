@@ -122,4 +122,4 @@ Finally, here is the result of training your own ML Model:
 
 ![Own Model](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/selfml.png)
 
-My ML model thought that every tweet was negative, even though some of them were not. More training might be required
+My ML model did not predict a single tweet to be positive! More training might be required
