@@ -67,3 +67,8 @@ Of course, you can also add paramters such as location, time of day, language, a
 # Important!
 
 You need to manually stop the streaming cell! This will result in an error but it is fine - the data is stored!
+
+#Results:
+
+Vader Sentiment Analysis of Biden over time:
+![alt text](https://github.com/ksd3/ec601/blob/images/biden.png?raw=true)
