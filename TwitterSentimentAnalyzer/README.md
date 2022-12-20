@@ -78,29 +78,45 @@ Vader Sentiment Analysis of Biden over time:
 The sentiment for Trump is generally more negative, whereas Biden tends to oscillate. Currently it seems as though sentiment for Biden is somewhat higher than Trump.
 
 Here are screenshots of the API working:
+
+Getting your home feed
 ![Home](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/home.png)
 
+Posting
 ![Posting](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/post.png)
 
+Getting the feed of another user
 ![Other User](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/other.png)
 
+Following an account
 ![Following](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/follow.png)
 
+Unfollowing an account
 ![Unfollowing](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/unfollow.png)
 
+Updating your profile
 ![Profile Update](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/updateprof.png)
 
+Liking a tweet
 ![Like Tweet](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/like.png)
 
+Blocking a user
 ![Block User](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/block.png)
 
+Unblocking a user
 ![Unblock User](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/unblock.png)
 
+Getting tweets from stream
 ![Get Tweets](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/get.png)
 
+Checking Trends around a Location
 ![Check Trends around Location](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/trends.png)
 
+Getting Tweets with their IDs
 ![Get Tweets with IDs](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/getids.png)
+
+My test profile
+![Test Profile](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/profile.png)
 
 Finally, here is the result of training your own ML Model:
 
