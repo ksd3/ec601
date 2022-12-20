@@ -64,3 +64,6 @@ For the algorithms, I used linear regression, logistic regression, random forest
 I also used NLTK's VADER Sentiment Analysis toolkit to analyze the sentiment of tweets and plot them in a graph. This is in the notebook titled ``vader.ipynb``. I compared the results for tweets featuring ``Biden`` and tweets featuring ``Trump``, as there were a lot of tweets available. You can change what terms you want to analyze by simply changing the ``search_terms`` variable. Of course, please make sure to delete the existing rule by entering its ID first! This is because of how Tweepy handles things. Then, NLTK's VADER is used to analyze the sentiments. You can also plot a graph! A graph of ``Biden`` sentiments and ``Trump`` sentiments is shown below.
 Of course, you can also add paramters such as location, time of day, language, and so on. The options are entirely flexible and you simply need to change a few strings! This notebook is capable of many similar things.
 
+# Important!
+
+You need to manually stop the streaming cell! This will result in an error but it is fine - the data is stored!
