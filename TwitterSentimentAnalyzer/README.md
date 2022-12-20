@@ -59,7 +59,7 @@ I tried to make my own Sentiment Analyzer to compare its results with those prov
 
 For the algorithms, I used linear regression, logistic regression, random forest, naive bayes, and LinearSVC. Out of these, linear regression failed isntantl as it did not like floats, which are needed to classify the sentiment. The other four managed to work but were not particularly accurate, as they were trained on a limited amount of tweets. I ended up overcorrecting every time I modified a program. There is scope for improvement here but at the moment the Google NLP classifier is the best. The confusion matrice images are available in the notebooks.
 
-# Part 2 Sentiment Analysis with VADER
+# Part 3) Sentiment Analysis with VADER
 
 I also used NLTK's VADER Sentiment Analysis toolkit to analyze the sentiment of tweets and plot them in a graph. This is in the notebook titled ``vader.ipynb``. I compared the results for tweets featuring ``Biden`` and tweets featuring ``Trump``, as there were a lot of tweets available. You can change what terms you want to analyze by simply changing the ``search_terms`` variable. Of course, please make sure to delete the existing rule by entering its ID first! This is because of how Tweepy handles things. Then, NLTK's VADER is used to analyze the sentiments. You can also plot a graph! A graph of ``Biden`` sentiments and ``Trump`` sentiments is shown below.
 Of course, you can also add paramters such as location, time of day, language, and so on. The options are entirely flexible and you simply need to change a few strings! This notebook is capable of many similar things.
