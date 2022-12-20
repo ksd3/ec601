@@ -71,4 +71,4 @@ You need to manually stop the streaming cell! This will result in an error but i
 #Results:
 
 Vader Sentiment Analysis of Biden over time:
-![alt text](https://github.com/ksd3/ec601/blob/images/biden.png?raw=true)
+![Biden](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/biden.png)
