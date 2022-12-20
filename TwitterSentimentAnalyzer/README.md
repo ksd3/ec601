@@ -68,7 +68,11 @@ Of course, you can also add paramters such as location, time of day, language, a
 
 You need to manually stop the streaming cell! This will result in an error but it is fine - the data is stored!
 
-#Results:
+# Results:
 
 Vader Sentiment Analysis of Biden over time:
 ![Biden](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/biden.png)
+
+![Trump](https://github.com/ksd3/ec601/blob/main/TwitterSentimentAnalyzer/images/trump.png)
+
+The sentiment for Trump is generally more negative, whereas Biden tends to oscillate. Currently it seems as though sentiment for Biden is somewhat higher than Trump.
